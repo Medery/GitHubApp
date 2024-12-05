@@ -62,7 +62,6 @@ struct RepositoryListView: View {
 
     func deleteRepository(at offsets: IndexSet) {
         viewModel.deleteRepository(at: offsets)
-        // Здесь можно добавить код для удаления из локального хранилища с использованием modelContext
     }
 }
 
